@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+body {
+    font-family: 'Poppins';
+}
+
+main {
+    width: 80%;
+    margin: 0px auto;
+    border: 1px solid blue;
+}
+
+nav {
+    position: sticky;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {}
+
+li+li,
+li:first-of-type {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid blueviolet;
+    padding: 5px;
+}
+
+a:hover,
+.btn-signup:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+li i {
+    margin-right: 10px;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: cornflowerblue;
+}
+
+#google {
+    margin-top: 50px;
+}
+
+.text {
+    text-align: justify;
+    margin-bottom: 3rem;
+}
+
+.wrapper {
+    padding: 10px 50px;
+}
+
+img {
+    width: min-content;
+    display: block;
+    margin: auto;
+    height: min-content;
+}
+
+p strong {
+    color: brown;
+}
+
+.wrapper div:first-child {
+    margin-right: 25px;
+}
+
+.img {
+    padding: 0 20%;
+}
+
+.btn {
+    margin-top: 2rem;
+}
+
+.btn-signup {
+    padding: 10px 30px;
+    background-color: #1573c5;
+    color: whitesmoke;
+    display: block;
+    margin: 10px auto;
+    border-radius: 25px;
+    outline: none;
+}
