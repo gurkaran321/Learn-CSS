@@ -37,3 +37,7 @@ p {
     color: red;
     background-color: grey;
 }
+
+li+li {
+    margin: 10px auto;
+}
