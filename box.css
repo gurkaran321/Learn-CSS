@@ -1,0 +1,39 @@
+body {
+    margin: 100px;
+}
+
+.content,
+.border,
+.margin,
+.padding {
+    width: 90%;
+    border: 1px solid blue;
+    margin: 20px auto;
+}
+
+.content>p {
+    margin: 25px;
+}
+
+p {
+    text-align: center;
+}
+
+.content {
+    height: 200px;
+}
+
+.border {
+    color: white;
+    background-color: blue;
+}
+
+.content {
+    color: black;
+    background-color: whitesmoke;
+}
+
+.padding {
+    color: red;
+    background-color: grey;
+}
